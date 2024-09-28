@@ -50,9 +50,9 @@ do-key pub: public key
 To download a custom Arch linux image, click the url below which will direct you to the website.
 https://gitlab.archlinux.org/archlinux/arch-boxes/-/packages/
 You're going to need the most recent one, so click the top one (images)
-![Screenshot 2024-09-27 102809](https://github.com/user-attachments/assets/fccbe8f5-2bd3-442b-8e9b-3d22c908f079)
+![Screenshot 2024-09-27 201601](https://github.com/user-attachments/assets/f4947515-3f31-42ec-97ac-0bdc92dd225e)
 Then, scroll down and look for the name that ends with .qcow2 (Remember to choose the most recent one!) here's an example of what it suppose to look like, 
-![Screenshot 2024-09-27 102809](https://github.com/user-attachments/assets/fccbe8f5-2bd3-442b-8e9b-3d22c908f079)
+![Screenshot 2024-09-27 202654](https://github.com/user-attachments/assets/c0d16dc6-65b1-42f3-8326-edd05eca2b42)
 Once you found it, click on it and download it.
 
 
@@ -99,7 +99,8 @@ ssh -i .ssh/do-key arch@your-droplets-ip-address
 example: ssh -i .ssh/do-key arch@209.38.132.111
 
 You can find your IP by going to your named project and then clicking on Resources. The image shown below is what it looks like, 
-![Example Image](103834.png)
+![Screenshot 2024-09-27 103834](https://github.com/user-attachments/assets/5fd70338-e265-4093-8083-6e303b48f4b9)
+
 
 -i: stands for identity_file 
 

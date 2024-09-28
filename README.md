@@ -87,7 +87,7 @@ Here are the instructions you need to do,
 5. Then for CPU options, the best I would recommand would be under Premium AMD, the $7 option.
 6. Choose Authentication Method, click on the SSH Key, and you should choose the key that you added to your DigitalOcean account recently
 7. After that, scroll down to look for Hostname, and  change the name to your liking, but make it shorter like BCIT for example. The name you chose will show up in your command line when you're logged into your server.
-![Example Image](102809.png)
+![Screenshot 2024-09-27 102809](https://github.com/user-attachments/assets/fccbe8f5-2bd3-442b-8e9b-3d22c908f079)
 8. After all that, leave the rest you did not do as default.
 
 

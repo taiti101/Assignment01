@@ -50,9 +50,9 @@ do-key pub: public key
 To download a custom Arch linux image, click the url below which will direct you to the website.
 https://gitlab.archlinux.org/archlinux/arch-boxes/-/packages/
 You're going to need the most recent one, so click the top one (images)
-![alt text](image-3.png)
+![Example Image](201601.png)
 Then, scroll down and look for the name that ends with .qcow2 (Remember to choose the most recent one!) here's an example of what it suppose to look like, 
-![alt text](image-5.png)
+![Example Image](201849.png)
 Once you found it, click on it and download it.
 
 
@@ -87,11 +87,8 @@ Here are the instructions you need to do,
 5. Then for CPU options, the best I would recommand would be under Premium AMD, the $7 option.
 6. Choose Authentication Method, click on the SSH Key, and you should choose the key that you added to your DigitalOcean account recently
 7. After that, scroll down to look for Hostname, and  change the name to your liking, but make it shorter like BCIT for example. The name you chose will show up in your command line when you're logged into your server.
-![alt text](image-1.png)
+![Example Image](102809.png)
 8. After all that, leave the rest you did not do as default.
-
-The image shown below 
-![alt text](image-2.png)
 
 
 ## Now connect to your droplet
@@ -100,6 +97,9 @@ Once you've created a droplet, connect to it using SSH.
 ssh -i .ssh/do-key arch@your-droplets-ip-address
 ```
 example: ssh -i .ssh/do-key arch@209.38.132.111
+
+You can find your IP by going to your named project and then clicking on Resources. The image shown below is what it looks like, 
+![Example Image](103834.png)
 
 -i: stands for identity_file 
 

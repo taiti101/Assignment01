@@ -50,7 +50,7 @@ do-key pub: public key
 To download a custom Arch linux image, click the url below which will direct you to the website.
 https://gitlab.archlinux.org/archlinux/arch-boxes/-/packages/
 You're going to need the most recent one, so click the top one (images)
-![Example Image](201601.png)
+![Screenshot 2024-09-27 102809](https://github.com/user-attachments/assets/fccbe8f5-2bd3-442b-8e9b-3d22c908f079)
 Then, scroll down and look for the name that ends with .qcow2 (Remember to choose the most recent one!) here's an example of what it suppose to look like, 
 ![Example Image](201849.png)
 Once you found it, click on it and download it.
